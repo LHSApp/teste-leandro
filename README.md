@@ -68,35 +68,31 @@ O comando npm run sass irá compilar o SCSS para um arquivo style.css que pode s
 
 Retorna todos os depoimentos
 
-GET /depoimentos
 
+GET /depoimentos
 Não requer nenhum parâmetro ou autenticação.
 
-Retorna um depoimento
-Copy code
-
-GET /depoimentos/${id}
-Parâmetro	Tipo	Descrição
-id	number	Obrigatório. O ID do depoimento que deseja obter.
 Exemplo de resposta
 A resposta é um array com objetos de depoimento com a seguinte estrutura:
 
 json
 
+
+
 [
   {
-    "avatar": "https://example.com/avatar.jpg", 
-    "name": "João da Silva",
-    "depoimento": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "avatar": "https://random-avatar.com/image1.jpg",
+    "name": "João Pereira Lima",
+    "depoimento": "O serviço de vocês é excelente! Adorei as dicas personalizadas de viagem e a dedicação para encontrar as melhores opções com nosso orçamento. Super recomendo!"
   },
-  {
-    "avatar": "https://example.com/avatar2.jpg",
-    "name": "Maria Souza", 
-    "depoimento": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  {  
+    "avatar": "https://random-avatar.com/image2.jpg", 
+    "name": "Maria Antonia Souza",
+    "depoimento": "Viajei para três países diferentes com as recomendações de vocês e todas as reservas correram super bem. O suporte 24h durante a viagem também foi muito útil quando tivemos um imprevisto. Nota 1000!"
   }
 ]
 Tecnologias
-mockapi.io/ para criar e hospedar o endpoint
+mockapi.io para criar e hospedar o endpoint
 Faker.js para gerar dados aleatórios realísticos
 Limitações
 Por ser um endpoint mockado, existem algumas limitações:
@@ -104,6 +100,7 @@ Por ser um endpoint mockado, existem algumas limitações:
 Dados estáticos e aleatórios
 Requer conexão com a internet
 Limitado às funcionalidades do mockapi.io
+
 
 
 ## Screenshots
