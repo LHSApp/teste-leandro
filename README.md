@@ -3,35 +3,50 @@
 
 [Documentação](https://link-da-documentação)
 
-Projeto SCSS Modularizado
-Este projeto consiste em um site desenvolvido com SCSS de forma modularizada, seguindo boas práticas de CSS.
-
-Estrutura de pastas
-src/scss/ - contém os arquivos SCSS separados por função
-_variables.scss - variáveis globais
-_mixins.scss - mixins reutilizáveis
-_global.scss - estilos globais e resets
-_components/ - pasta com componentes do site
-_nav.scss
-_buttons.scss
-etc
-main.scss - arquivo principal que importa todos os outros
-index.html - página HTML do site
-
-Compile o CSS: npm run css
-Uso
-O comando npm run css irá compilar o SCSS para um arquivo style.css que pode ser incluído no HTML.
-
-Durante o desenvolvimento, execute npm run watch para compilar automaticamente a cada alteração nos arquivos SCSS.
 
 
+Nome do Projeto
+Este é um site de uma agência de viagens chamada "My Log Travels".
+
+Descrição
+O site conta com as seguintes seções:
+
+Cabeçalho
+Barra de navegação com links para Home, Guias, Voos, Sobre
+Seção Inicial
+Título, subtítulo e botão de reserva
+Seção com 3 Colunas
+3 colunas com imagem, texto e título
+Seção Imagem e Texto
+Imagem grande à direita e texto à esquerda
+Seção Depoimentos
+Título da seção
+Carrossel de depoimentos
+Rodapé
+Logo e links rápidos
+4 colunas com links
+Direitos autorais
+Tecnologias Utilizadas
+HTML
+CSS
+JavaScript
+Bootstrap
+Fontes do Google Fonts
+Como rodar o projeto
+Clonar repositório
+Abrir o arquivo index.html no navegador
+Como contribuir
+Pull requests são bem vindos! Para maiores mudanças, por favor abra uma issue primeiro para discutirmos o que você gostaria de mudar.
+
+
+Esse README apresenta de forma sucinta as principais informações e tecnologias envolvidas no projeto. Pode ser expandido com mais detalhes e informações relevantes.
 
 
 
-.
+
 ## Autores
 
-- [@LHSApp](https://www.github.com/octokatherine)
+- [@LHSApp](https://github.com/LHSApp)
 
 
 ## Licença
@@ -41,12 +56,59 @@ Durante o desenvolvimento, execute npm run watch para compilar automaticamente a
 
 ## Instalação
 
-Instale com npm
+Clonar repositório
+Abrir o arquivo index.html no navegador
 
-```bash
-Clone o repositório
-Instale as dependências do SCSS: npm install
-Compile o CSS: npm run css
+Se preferir rodar com a extensão do VS Code Go Live.
+
+Compile o CSS: npm run sass.
+
+O comando npm run sass irá compilar o SCSS para um arquivo style.css que pode ser incluído no HTML.
 ```
     
-## Teste Leandro 
+## Documentação da API
+
+Retorna todos os depoimentos
+
+GET /depoimentos
+
+Não requer nenhum parâmetro ou autenticação.
+
+Retorna um depoimento
+Copy code
+
+GET /depoimentos/${id}
+Parâmetro	Tipo	Descrição
+id	number	Obrigatório. O ID do depoimento que deseja obter.
+Exemplo de resposta
+A resposta é um array com objetos de depoimento com a seguinte estrutura:
+
+json
+
+[
+  {
+    "avatar": "https://example.com/avatar.jpg", 
+    "name": "João da Silva",
+    "depoimento": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "avatar": "https://example.com/avatar2.jpg",
+    "name": "Maria Souza", 
+    "depoimento": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }
+]
+Tecnologias
+mockapi.io/ para criar e hospedar o endpoint
+Faker.js para gerar dados aleatórios realísticos
+Limitações
+Por ser um endpoint mockado, existem algumas limitações:
+
+Dados estáticos e aleatórios
+Requer conexão com a internet
+Limitado às funcionalidades do mockapi.io
+
+
+## Screenshots
+
+
+
