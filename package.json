@@ -1,0 +1,21 @@
+{
+  "name": "Leandro-Santos",
+  "version": "1.0.0",
+  "description": "This is a basic setup for you to start your projects with sass",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch scss/global.scss:css/main.css --style compressed"
+  },
+  
+  "keywords": [
+    "Leandro-Santos",
+    "setup",
+    "basic"
+  ],
+  "author": "Leandro Santos",
+  "license": "ISC",
+  "bugs": {
+    
+  },
+  "homepage": ""
+}

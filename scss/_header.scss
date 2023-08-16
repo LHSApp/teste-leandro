@@ -1,0 +1,85 @@
+
+
+
+.bg-body-py {
+  background: $bg-body;
+}
+
+.border-bottom-py {
+  border-bottom: $border-bottom;  
+}
+
+.nav-item {
+  font-size: 20px;
+  padding-right: 3.5rem;
+
+  @media (max-width: $lg) {
+    font-size: 18px;
+    padding-right: 2rem;
+  }
+
+  @media (max-width: $md) {
+    font-size: 16px;
+    padding-right: 1rem; 
+  }
+
+  @media (max-width: $sm) {
+    font-size: 14px;
+    padding-right: 0.5rem;
+  }
+}
+
+.nav2 a {
+  border: 3px solid #000;
+  
+  text-decoration: none;
+  border-radius: 5px;
+  color: #232323;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20.833px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.521px;
+  padding: 10px 30px 10px 30px;
+
+  @media (max-width: $lg) {
+    font-size: 18px;
+    display: flex;
+  }
+  
+  @media (max-width: $md) {
+    font-size: 16px;
+    display: flex;
+  }
+
+  @media (max-width: $sm) {
+    font-size: 14px;
+    display: flex;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav-item {
+  text-align: center; 
+}
+
+
+
+@media (max-width: 768px) {
+  .nav {
+     flex-direction: column;
+     align-items: center;
+  }
+  
+  .nav-item {
+    margin: 10px 0; 
+  }
+}
+
