@@ -33,9 +33,7 @@ JavaScript
 Bootstrap
 Fontes do Google Fonts
 Como rodar o projeto
-Clonar repositório
-Abrir o arquivo index.html no navegador
-Como contribuir
+
 Pull requests são bem vindos! Para maiores mudanças, por favor abra uma issue primeiro para discutirmos o que você gostaria de mudar.
 
 
