@@ -104,6 +104,6 @@ Limitado às funcionalidades do mockapi.io
 
 
 ## Screenshots
-<div align"center"><img src="https://github.com/LHSApp/teste-leandro/assets/48134318/b2f0c215-64e5-4d95-8e88-6d0f1cb98ca9"></div>
+
 
 
