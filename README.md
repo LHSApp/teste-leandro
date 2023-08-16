@@ -62,6 +62,8 @@ Se preferir rodar com a extensão do VS Code Go Live.
 Compile o CSS: npm run sass.
 
 O comando npm run sass irá compilar o SCSS para um arquivo style.css que pode ser incluído no HTML.
+
+<div align"center"><img src="https://github.com/LHSApp/teste-leandro/assets/48134318/b2f0c215-64e5-4d95-8e88-6d0f1cb98ca9"></div>
 ```
     
 ## Documentação da API
@@ -102,8 +104,3 @@ Requer conexão com a internet
 Limitado às funcionalidades do mockapi.io
 
 
-
-## Screenshots
-
-
-<div align"center"><img src="https://github.com/LHSApp/teste-leandro/assets/48134318/b2f0c215-64e5-4d95-8e88-6d0f1cb98ca9"></div>
