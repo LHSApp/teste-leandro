@@ -63,12 +63,10 @@ Compile o CSS: npm run sass.
 
 O comando npm run sass irá compilar o SCSS para um arquivo style.css que pode ser incluído no HTML.
 
-<div align"center"><img src="https://github.com/LHSApp/teste-leandro/assets/48134318/b2f0c215-64e5-4d95-8e88-6d0f1cb98ca9"></div>
-```
-
 
 ## Documentação da API
-
+<div align"center"><img src="https://github.com/LHSApp/teste-leandro/assets/48134318/b2f0c215-64e5-4d95-8e88-6d0f1cb98ca9"></div>
+```
 Retorna todos os depoimentos
 
 
