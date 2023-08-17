@@ -86,6 +86,11 @@ $sm: 576px;
   letter-spacing: -0.521px;
   margin-top: 15px;
 
+  &:hover {
+    background-color: gray;
+    color: black;
+    }
+
   @media (max-width: $md) {
     width: 100%;
     margin-bottom: 20px;
@@ -204,8 +209,8 @@ $stroke-width: 3px;
     width: 260px;
     color: #232323;
     font-family: Cardo;
-    font-size: 36.504px;
-    font-weight: 700;
+    font-size: 26.504px;
+    font-weight: 900;
     line-height: 36.523px;
     letter-spacing: -2.49px;
     margin-top: 20px;
@@ -347,11 +352,11 @@ $stroke-width: 3px;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("/img/seta-esquerda.svg") !important;
+  background-image: url("img/seta-esquerda.svg") !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("/img/seta-direita.svg") !important;
+  background-image: url("img/seta-direita.svg") !important;
 }
 
 .carousel-control-next, .carousel-control-prev{

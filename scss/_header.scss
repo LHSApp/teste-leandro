@@ -8,6 +8,8 @@ $sm: 576px;
   background: $bg-body;
 }
 
+
+
 .nav-link.active {
   color: #000 !important;
   font-weight: bold;
@@ -46,7 +48,11 @@ $sm: 576px;
   line-height: normal;
   letter-spacing: -0.521px;
   padding: 10px 30px;
-  display: flex; /* Always display as flex to enable hamburger menu */
+  display: flex; 
+  &:hover {
+    background-color: gray;
+    color: black;
+    }
 
   @media (max-width: $lg) {
     font-size: 18px;
